@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: beige;
+        }
+        
+      
+       @media (max-width:300px){
+        #box-1{
+            display: block;
+            background-color: aqua;
+           
+        }
+
+       }
+       @media (min-width:300px)and (max-width:500px){
+        #box-1{
+            display: block;
+            background-color: goldenrod ;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+         
+
+           
+        }
+
+       }
+
+
+      
+
+
+    </style>
+<body>
+    
+   <div class="box" id="box-1">Online <br>Webinar</div>
+   <div id="lorem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae <br> minima, corrupti optio nisi error iure odio a nesciunt corporis istebr
+    culpa facilis amet non, rem dolor. Voluptatem at facere error.</div>
+    <button id="btn">Learn More</button>
+   <!-- <div class="box" id="box-2">This is tablet</div>
+   <div class="box" id="box-3">This is computers screen</div>
+   <div class="box" id="box-4">This is wide screen computers</div> -->
+    
+</body>
+</html>
